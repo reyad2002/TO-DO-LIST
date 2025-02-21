@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+.containerr{
+    background-color: #704300;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 100px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 20px;
+    color: #DCD7C9;
+    overflow-y: auto;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.rightside {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Takes full width of parent */
+    min-width: 0; /* Prevents content from overflowing */
+}
+.rightside h4 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.but {
+    display: flex;
+    flex-shrink: 0; /* Prevents buttons from shrinking */
+}
+.buts {
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 5px;
+}
+.Icon{
+    /* background-color: black; */
+    padding: 5px 6px;
+    border-radius: 50%;
+    transition: .2s;
+    background-color: #2C3930;
+    cursor: pointer;
+
+
+}
+.Icon:hover{
+    background-color: rgb(29, 41, 33);
+
+}
+.deleteAll{
+    margin-left: 280px;
+    display: none;
+    background-color: rgb(183, 0, 0);
+
+}
+.deleteAll:hover{
+    background-color: rgba(183, 0, 0, 0.686);
+
+}
+.modify{
+    padding: 5px;
+    border-radius: 50%;
+    transition: .2s;
+
+}
+.modify:hover{
+    color: rgb(0, 0, 255);
+    /* background-color: aliceblue; */
+}
+
+.delete{
+    padding: 5px;
+    border-radius: 50%;
+    transition: .2s;
+
+}
+.delete:hover{
+    color: rgb(255, 0, 0);
+    /* background-color: aliceblue; */
+}
+.done{
+    padding: 5px;
+    border-radius: 50%;
+    transition: .2s;
+
+}
+.done:hover{
+    color: rgb(43, 234, 0);
+    /* background-color: aliceblue; */
+}
+.task2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3930;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: inherit;
+    margin-bottom: 5px;
+    min-height: 50px; /* Ensures a default height */
+    word-wrap: break-word; /* Wrap long words */
+    overflow-wrap: break-word;
+    white-space: normal; /* Allows text to wrap */
+}
+.date{
+    font-size: 12px;
+}
+
+.addYourTask{
+    display: flex;
+    justify-content: space-between;
+}
+.popupbut{
+    margin-top: 20px;
+    margin-left: 60%;
+}
+.popbut{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(112, 67, 0);
+    color: antiquewhite;
+}
+.contview{
+    /* background-color: aqua; */
+    height: 310px;
+    /* overflow: auto; */
+}
+.bio{
+    text-align: center;
+}
